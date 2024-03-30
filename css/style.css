@@ -1,0 +1,101 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    height: 4500px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Home-Heder{
+  
+    width: 100%;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    opacity: 0.7;
+    z-index: 10;
+
+}
+
+.Img{
+    width: 120px;
+    height: 55px;   
+    float: left;
+   margin-left: 100px; 
+   
+}
+.Heder-list{
+    list-style: none ;
+    float: right;
+  
+}
+.Heder-list li {
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 16px;
+    margin-right: 50px; 
+}
+
+.Heder-list li a {
+    text-decoration: none;
+    color: rgb(255, 153, 0);
+}
+
+
+.Home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/ddd.jpg);
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    background-color: rgba(0, 0, 0,0.6);
+}
+
+.Home-Title{
+    width: 70%;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.p1{
+    margin: 30px 0px;
+    color: #cbbbbb;
+    letter-spacing: 2px;
+}
+
+.btn{
+    width: 170px;
+    padding: 20px 0px;
+    font-size: 20px;
+    margin: 0px 20px;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: rgb(0, 0, 255);
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0px;
+}
